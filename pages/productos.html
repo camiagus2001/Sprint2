@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto - Riot Games Merch</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+     <!-- Encabezado (Navbar) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand" href="../index.html">Riot Games Merch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categorias.html">Categorías</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ofertas.html">Ofertas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+     <!-- Contenido de la página de producto -->
+    <main class="container">
+
+        <h1 class="text-center mt-4">Detalles del Producto</h1>
+        <!-- Detalles del producto -->
+        <div class="card producto">
+            <article>
+            <img src="../images/Remera.png" alt="Camisetas" width="200" height="150">
+            <div class="card-body">
+                <h5 class="card-title">Camiseta deportiva del Mundial 2023</h5>
+                <p class="card-text">THE GRIND THE GLORY
+
+                    Aquí llega el Mundial. Donde todo lo que tanto os gusta de League of Legends llega al clímax.
+                     Para 22 equipos y 12 regiones, estas próximas semanas en Corea del Sur pondrán a prueba su dominio en el juego.</p>
+                     Disfrutad de parte de la gloria que les espera al final del campeonato con la camiseta deportiva del Mundial 2023.
+
+                    <strong><br>Características:</strong>
+                    <li>100 % poliéster.</li>
+                    <li>Parche de Teemo del Mundial 2023 bordado en la manga derecha.</li>
+                    <li>Diseño de silicona impreso por transferencia térmica en la parte delantera y trasera.</li>
+                    <li>Contraste de dos tonos en puños.</li>
+                    <li>El modelo masculino mide 1,88 m y lleva una talla L. La modelo mide 1,74 m y lleva la talla M.</li>
+
+                <p class="card-text"> <strong>Precio: 79,99 €</strong></p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+            </article>
+            </div>
+        </div>  
+
+    <!-- Modal de Compra -->
+    <div class="modal fade" id="comprarModal" tabindex="-1" role="dialog" aria-labelledby="comprarModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="comprarModalLabel">Comprar Nombre del Producto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contenido del modal, como opciones de compra y detalles adicionales -->
+                    <p>Detalles del producto, opciones de compra, etc.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+     <!-- Pie de página (Footer) -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Riot Games Merch. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
